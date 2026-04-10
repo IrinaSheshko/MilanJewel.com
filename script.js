@@ -10,7 +10,7 @@ search.addEventListener("keyup", function(event) {
 })
 
 function saleCountdown() {
-    const dateSale = new Date("December 26, 2026 00:00")
+    const dateSale = new Date("2026-12-26T00:00:00")
     const newDate = new Date();
     const daysNow = dateSale - newDate;
 
